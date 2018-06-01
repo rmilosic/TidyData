@@ -45,4 +45,4 @@ summarised_dataset <- grouped_dataset %>% summarise_all(mean)
 names(summarised_dataset) <- gsub("-|[()]|_", names(summarised_dataset), replacement = "")
 
 # write the table
-write.table(summarised_dataset,file = "result.txt", sep=" ")
+write.table(summarised_dataset,file = "result.txt", sep=" ", row.names = FALSE)

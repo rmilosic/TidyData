@@ -1,6 +1,6 @@
-#CodeBook
+# CodeBook
 
-##Data Source
+## Data Source
 
 Original data is in folders "train", "test" and "text files".
 
@@ -29,7 +29,7 @@ The transformed dataset "result.txt" lies in the root folder.
 5) We grouped the dataset according to activity and subject
 6) We summarised the mean of data in each column for each group of activity and subject.
 
-##Variables in transformed dataset
+## Variables in transformed dataset
 
 actlabel - label of activity 
 subject - id of subject
